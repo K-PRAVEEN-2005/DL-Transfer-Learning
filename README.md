@@ -136,8 +136,8 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
       print(f'Epoch [{epoch+1}/{num_epochs}], Train Loss: {train_losses[-1]:.4f}, Validation Loss: {val_losses[-1]:.4f}')
 
     # Plot training and validation loss
-    print("Name: Prakash C ")
-    print("Register Number : 212223240122 ")
+    print("Name: PRAVEEN K ")
+    print("Register Number : 212223230153")
     plt.figure(figsize=(8, 6))
     plt.plot(range(1, num_epochs + 1), train_losses, label='Train Loss', marker='o')
     plt.plot(range(1, num_epochs + 1), val_losses, label='Validation Loss', marker='s')
@@ -178,8 +178,8 @@ def test_model(model, test_loader):
 
     # Compute confusion matrix
     cm = confusion_matrix(all_labels, all_preds)
-    print("Name: Prakash C ")
-    print("Register Number: 212223240122 ")
+    print("Name: PRAVEEN K ")
+    print("Register Number: 212223230153")
     plt.figure(figsize=(8, 6))
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=train_dataset.classes, yticklabels=train_dataset.classes)
     plt.xlabel('Predicted')
@@ -188,8 +188,8 @@ def test_model(model, test_loader):
     plt.show()
 
     # Print classification report
-    print("Name: Prakash C ")
-    print("Register Number:212223240122 ")
+    print("Name: PRAVEEN K ")
+    print("Register Number:212223230153")
     print("Classification Report:")
     print(classification_report(all_labels, all_preds, target_names=train_dataset.classes))
 
@@ -233,17 +233,20 @@ predict_image(model, image_index=25, dataset=test_dataset)
 
 <img width="649" height="660" alt="image" src="https://github.com/user-attachments/assets/5f1cab90-c6a6-4b33-a1d4-1848b4f7a2a1" />
 
-<img width="1006" height="730" alt="image" src="https://github.com/user-attachments/assets/8e48ad88-1b14-4a63-9aa5-0fc5d32c4bec" />
+ <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6f4bd534-6b34-42df-98ec-76b0855a1da0" />
+
 
 
 ## Confusion Matrix
 
-<img width="843" height="681" alt="image" src="https://github.com/user-attachments/assets/d0fcadc7-f98f-4a1b-9dae-a6f26d447ed1" />
+ <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/eb00888b-e244-4d73-b483-3e5b16a09636" />
+
 
 
 ## Classification Report
 
-<img width="1352" height="380" alt="image" src="https://github.com/user-attachments/assets/345591f5-d70a-4421-a96f-dba948034aef" />
+ <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/1d747e32-fad6-4b84-871f-300e34a6cee8" />
+
 
 
 ### New Sample Data Prediction
